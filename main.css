@@ -1,0 +1,108 @@
+.press-box {
+    padding-top: 100px;
+}
+
+.press-text {
+    text-align: center;
+}
+
+.pressed-colors-list {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pressed-colors-item {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+#whiteItem {
+    background-color: #ffffff;
+}
+
+#pinkItem {
+    background-color: #ffc0cb;
+}
+
+#blackItem {
+    background-color: #000000;
+}
+
+#purpleItem {
+    background-color: #800080;
+}
+
+#brownItem {
+    background-color: #a52a2a;
+}
+
+#grayItem {
+    background-color: #808080;
+}
+
+#yellowItem {
+    background-color: #ffff00;
+}
+
+#redItem {
+    background-color: #ff0000;
+}
+
+#greenItem {
+    background-color: #008000;
+}
+
+#blueItem {
+    background-color: #0000ff;
+}
+
+#orangeItem {
+    background-color: #ffa500;
+}
+
+#limeItem {
+    background-color: #00ff00;
+}
+
+#aquaItem {
+    background-color: #00ffff;
+}
+
+#navyItem {
+    background-color: #000080;
+}
+
+#goldenItem {
+    background-color: #ffd700;
+}
+
+#tealItem {
+    background-color: #008080;
+}
+
+#wheatItem {
+    background-color: #f5deb3;
+}
+
+#lightGreenItem {
+    background-color: #90ee90;
+}
+
+#tomatoItem {
+    background-color: #ff6347;
+}
+
+#silverItem {
+    background-color: #c0c0c0;
+}
+
+#salmonItem {
+    background-color: #fa8072;
+}
