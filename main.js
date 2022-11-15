@@ -12,8 +12,21 @@ window.addEventListener("keydown", (evt) => {
 
 pressList.addEventListener("click", (evt) => {
   if (evt.target.matches(".pressed-colors-item")) {
-    console.log("pressed");
     const bodyChangedBg = getComputedStyle(evt.target).backgroundColor;
+    pressText.textContent = `You chose: ${bodyChangedBg}`;
     siteBody.style.backgroundColor = bodyChangedBg;
+    console.log(bodyChangedBg);
+    if (
+      bodyChangedBg === "rgb(0, 0, 0)" ||
+      bodyChangedBg === "rgb(0, 0, 128)"
+    ) {
+      pressText.style.color = "#ffffff";
+    } else if (
+      bodyChangedBg === "rgb(255, 255, 255)" ||
+      bodyChangedBg === "rgb(255, 255, 0)" ||
+      bodyChangedBg === "rgb(245, 222, 179)"
+    ) {
+      pressText.style.color = "#000000";
+    }
   }
 });
