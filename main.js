@@ -15,7 +15,6 @@ pressList.addEventListener("click", (evt) => {
     const bodyChangedBg = getComputedStyle(evt.target).backgroundColor;
     pressText.textContent = `You chose: ${bodyChangedBg}`;
     siteBody.style.backgroundColor = bodyChangedBg;
-    console.log(bodyChangedBg);
     if (
       bodyChangedBg === "rgb(0, 0, 0)" ||
       bodyChangedBg === "rgb(0, 0, 128)"
